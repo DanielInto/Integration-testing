@@ -6,7 +6,7 @@ function hexToRgb(hex) {
   if (hex.length === 3) {
     hex = hex
       .split("")
-      .map((c) => c + c.join(""))
+      .map((c) => c + c)
       .join("");
   }
 
